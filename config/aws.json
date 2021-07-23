@@ -1,11 +1,11 @@
 {
-    "app_route": "http://localhost:3000/",
-    "bot_account": "rahulsps",
-    "google_analytics": "",
+    "app_route": "http://nodeskeleton-env.eba-xdbkk62b.us-east-1.elasticbeanstalk.com/",
     "db": {
         "database": "ebdb",
         "username": "nodeskeletonU",
         "password": "node_skeletonPwD3$",
+        "host": "aa1wa97ei75c1y9.cvd3esvflamb.us-east-1.rds.amazonaws.com",
+        "port": 3306,
         "options": {
             "timezone": "+05:30",
             "dialect": "mysql",
@@ -20,17 +20,17 @@
             },
             "replication": {
                 "write": {
-                    "username": "root",
-                    "password": "root",
-                    "host": "localhost",
-                    "port": 3306
+                  "username": "nodeskeletonU",
+                  "password": "node_skeletonPwD3$",
+                  "host": "aa1wa97ei75c1y9.cvd3esvflamb.us-east-1.rds.amazonaws.com",
+                  "port": 3306
                 },
                 "read": [
                     {
-                        "username": "root",
-                        "password": "root",
-                        "host": "localhost",
-                        "port": 3306
+                      "username": "nodeskeletonU",
+                      "password": "node_skeletonPwD3$",
+                      "host": "aa1wa97ei75c1y9.cvd3esvflamb.us-east-1.rds.amazonaws.com",
+                      "port": 3306
                     }
                 ]
             }

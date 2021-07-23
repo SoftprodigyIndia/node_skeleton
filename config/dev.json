@@ -1,7 +1,5 @@
 {
     "app_route": "http://localhost:3000/",
-    "bot_account": "rahulsps",
-    "google_analytics": "",
     "db": {
         "database": "node_skeleton",
         "username": "root",

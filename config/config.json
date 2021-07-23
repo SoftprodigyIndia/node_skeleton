@@ -7,10 +7,11 @@
     "dialect": "mysql"
   },
   "aws": {
-    "username": "nodeskeletonU",
-    "password": "node_skeletonPwD3",
     "database": "ebdb",
-    "host": "",
+    "username": "nodeskeletonU",
+    "password": "node_skeletonPwD3$",
+    "host": "aa1wa97ei75c1y9.cvd3esvflamb.us-east-1.rds.amazonaws.com",
+    "port": 3306,
     "dialect": "mysql"
   }
 }
