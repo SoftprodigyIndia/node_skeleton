@@ -1,0 +1,16 @@
+{
+  "dev": {
+    "username": "root",
+    "password": "root",
+    "database": "node_skeleton",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "aws": {
+    "username": "nodeskeletonU",
+    "password": "node_skeletonPwD3",
+    "database": "ebdb",
+    "host": "",
+    "dialect": "mysql"
+  }
+}
