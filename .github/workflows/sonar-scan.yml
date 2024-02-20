@@ -16,5 +16,5 @@ jobs:
     - name: Build with Maven cloud
       run:  mvn -B verify sonar:sonar -Dsonar.projectKey=node-skeleton_architecture -Dsonar.organization=node-skeleton -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN_SKELETON
       env:
-        GIT_HUB_TOKEN: ${{ secrets.SONARCLOUD_GITHUB_TOKEN_SKELETON }}
-        SONARCLOUD_TOKEN: ${{ secrets.SONAR_TOKEN_SKELETON }}
+        GIT_HUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+        SONARCLOUD_TOKEN: ${{ secrets.SONAR_TOKEN }}
